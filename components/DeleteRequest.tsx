@@ -75,7 +75,7 @@ export default function DeleteRequest({ countryCode }: RequestsProps) {
         Elimina Giocatore
       </button>
       {error && <p className="text-red-600">{error}</p>}
-      {success && <p className="font-semibold text-black">{success}</p>}
+      {success && <p className="text-green-600 mt-3">{success}</p>}
     </div>
   );
 }
